@@ -62,9 +62,9 @@ Only the jump box machine can accept connections from the Internet. Access to th
 - Add whitelisted IP addresses: Personal public IP address
 
 
-- Machines within the network can only be accessed by jump box provitioner.
-- Which machine did you allow to access your ELK VM?: jump box provitioner.
-- What was its IP address?: 10.1.0.4
+- Machines within the network can only be accessed by- jump box provitioner.
+- Which machine did you allow to access your ELK VM? - jump box provitioner.
+- What was its IP address?- 10.1.0.4
 - The Jump-Box-provitioner is able to connect via SSH to the Elk-Stack machine through port 22. In addition the Personal Host IP address is also able to access the Elk-Stack    machine through port 5601
 
 
