@@ -59,8 +59,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
--Add whitelisted IP addresses:
-
+- Add whitelisted IP addresses:
 -Personal public IP address
 
 
@@ -88,9 +87,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 
--[Install-ELK](Ansible/Install-elk.yml) 
+- [Install-ELK](Ansible/Install-elk.yml) 
 
--In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc:
+- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc:
 - - name: set maximum map count in sysctl/systemd
 - - name: docker.io
 - - name: instal pip3
