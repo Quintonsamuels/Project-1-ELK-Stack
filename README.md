@@ -31,16 +31,16 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available , in addition to restricting access to the network.
 
-- What aspect of security do load balancers protect?:  The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
+- What aspect of security do load balancers protect? - The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
   
-- What is the advantage of a jump box?: Acts as an audit for traffic and a single point where we can manage user accounts.
+- What is the advantage of a jump box? - Acts as an audit for traffic and a single point where we can manage user accounts.
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 
-- What does Filebeat watch for?: Filebeat monitors for log files, collects log events, and forwards that information to Elasticsearch, or Longstash for indexing.
+- What does Filebeat watch for? - Filebeat monitors for log files, collects log events, and forwards that information to Elasticsearch, or Longstash for indexing.
 
-- What does Metricbeat record?: Metricbeat records metrics and statistics, and sends the output to programs such as Elasticsearch or Logstash. 
+- What does Metricbeat record? -  Metricbeat records metrics and statistics, and sends the output to programs such as Elasticsearch or Logstash. 
 
  
 
@@ -64,7 +64,7 @@ Only the jump box machine can accept connections from the Internet. Access to th
 
 - Machines within the network can only be accessed by - jump box provitioner.
 - Which machine did you allow to access your ELK VM? - jump box provitioner.
-- What was its IP address?- 10.1.0.4
+- What was its IP address? - 10.1.0.4
 - The Jump-Box-provitioner is able to connect via SSH to the Elk-Stack machine through port 22. In addition the Personal Host IP address is also able to access the Elk-Stack    machine through port 5601
 
 
@@ -123,11 +123,11 @@ These Beats allow us to collect the following information from each machine:
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-- filebeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
+- filebeat-playbook.yml playbook nano file - Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
 
 [filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
 
-- metricbeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
+- metricbeat-playbook.yml playbook nano file -  Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
 
 [metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
 
