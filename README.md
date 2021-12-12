@@ -74,10 +74,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses  |
 |----------|---------------------|-----------------------|
-| Jump Box | Yes                 | Personal IP, 10.0.0.4 |
+| Jump Box | Yes                 | Public IP, 10.0.0.4   |
 | Web-1    | No                  | 10.0.0.5              |
 | Web-2    | No                  | 10.0.0.6              |
-| ELK-Stack| yes/No              | Personal IP, 10.1.0.4 |
+| ELK-Stack| yes/No              | Public IP, 10.1.0.4   |
 | Load-bal | Yes                 | 20.124.200.176        |
 
 ### Elk Configuration
