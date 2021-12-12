@@ -13,7 +13,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 https://github.com/shahars1/Week-13-Project-1-ELK-Stack-/blob/main/Ansible/install-elk.yml.png 
 
 - _Hosts:
-https://github.com/shahars1/Week-13-Project-1-ELK-Stack-/blob/main/Ansible/hosts.config
+[](Ansible/hosts)
 
 - _ansible:
 https://github.com/shahars1/Week-13-Project-1-ELK-Stack-/blob/main/Ansible/ansible.cfg
