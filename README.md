@@ -141,4 +141,4 @@ SSH into the control node and follow the steps below:
 http://[personal vm IP]:5601/app/kibana to check installation.
 
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc: ansibe-playbook install-elk.yml, ansibe-playbook filebeat-playbook.yml, ansibe-playbook metricbeat-playbook.yml
+
