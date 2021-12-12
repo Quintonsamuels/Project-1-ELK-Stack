@@ -9,11 +9,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 : Enter the playbook file:
 
-- _[install-ELK](Ansible/install-elk.yml.png) 
+-[Install-ELK](Ansible/Install-elk.yml) 
 
-- _[hosts](Ansible/hosts.config)
+-[Hosts](Ansible/hosts.config)
 
-- _[ansible](Ansible/ansible.cfg)
+-[Ansible](Ansible/ansible.cfg)
 
 
 
@@ -74,10 +74,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses  |
 |----------|---------------------|-----------------------|
-| Jump Box | Yes                 | Personal IP, 10.0.0.4 |
+| Jump Box | Yes                 | Public IP, 10.0.0.4   |
 | Web-1    | No                  | 10.0.0.5              |
 | Web-2    | No                  | 10.0.0.6              |
-| ELK-Stack| yes/No              | Personal IP, 10.1.0.4 |
+| ELK-Stack| yes/No              | Public IP, 10.1.0.4   |
 | Load-bal | Yes                 | 20.124.200.176        |
 
 ### Elk Configuration
@@ -88,7 +88,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 
--  _[install-ELK](Ansible/install-elk.yml.png) 
+-[Install-ELK](Ansible/Install-elk.yml) 
 
 -In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc:
 - - name: set maximum map count in sysctl/systemd
@@ -127,11 +127,11 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 -filebeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
 
-![](Ansible/filebeat-playbook.yml.png)
+[filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
 
 metricbeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
 
-[metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
+[metricbeat-playbook](Ansible/metricbeat-playbook.yml)
 
 SSH into the control node and follow the steps below:
 
