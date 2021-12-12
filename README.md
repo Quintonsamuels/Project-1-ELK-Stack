@@ -129,7 +129,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 - metricbeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
 
-[metricbeat-playbook](Ansible/metricbeat-playbook.yml)
+[metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
 
 SSH into the control node and follow the steps below:
 
