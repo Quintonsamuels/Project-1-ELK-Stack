@@ -9,11 +9,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 : Enter the playbook file:
 
--[Install-ELK](Ansible/Install-elk.yml) 
+- [Install-ELK](Ansible/Install-elk.yml) 
 
--[Hosts](Ansible/hosts.config)
+- [Hosts](Ansible/hosts.config)
 
--[Ansible](Ansible/ansible.cfg)
+- [Ansible](Ansible/ansible.cfg)
 
 
 
@@ -31,16 +31,16 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available , in addition to restricting access to the network.
 
--What aspect of security do load balancers protect?:  The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
+- What aspect of security do load balancers protect?:  The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
   
--What is the advantage of a jump box?: Acts as an audit for traffic and a single point where we can manage user accounts.
+- What is the advantage of a jump box?: Acts as an audit for traffic and a single point where we can manage user accounts.
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 
--What does Filebeat watch for?: Filebeat monitors for log files, collects log events, and forwards that information to Elasticsearch, or Longstash for indexing.
+- What does Filebeat watch for?: Filebeat monitors for log files, collects log events, and forwards that information to Elasticsearch, or Longstash for indexing.
 
--What does Metricbeat record?: Metricbeat records metrics and statistics, and sends the output to programs such as Elasticsearch or Logstash. 
+- What does Metricbeat record?: Metricbeat records metrics and statistics, and sends the output to programs such as Elasticsearch or Logstash. 
 
  
 
@@ -84,7 +84,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...System installation and updates can be done efficiently.
 
--What is the main advantage of automating configuration with Ansible?: Ansible is very easy to set up and use, easy to read, no special coding skills are needed, and is open source (free).             
+- What is the main advantage of automating configuration with Ansible?: Ansible is very easy to set up and use, easy to read, no special coding skills are needed, and is open source (free).             
 
 The playbook implements the following tasks:
 
@@ -112,24 +112,24 @@ This ELK server is configured to monitor the following machines:
 We have installed the following Beats on these machines:
 -Specify which Beats you successfully installed:
 
--Filebeat
--Metricbeat
+- Filebeat
+- Metricbeat
 
 These Beats allow us to collect the following information from each machine:
 -In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc.
 
--Filebeat: Monitors log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would look at the log events and send them to ELK-Stack VM. 
+- Filebeat: Monitors log files and collects log events and then forwards them to Elasticsearch, or Logstash, or any other specified destination. The filebeat would look at the log events and send them to ELK-Stack VM. 
 
--Metricbeat: Takes the metrics and statistics collected and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The metricbeat would look at the uptime of the system or the system logs.
+- Metricbeat: Takes the metrics and statistics collected and sends them out to programs such as Elasticsearch or Logstash, or any other specified destination. The metricbeat would look at the uptime of the system or the system logs.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
--filebeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
+- filebeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
 
 [filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
 
-metricbeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
+- metricbeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
 
 [metricbeat-playbook](Ansible/metricbeat-playbook.yml)
 
