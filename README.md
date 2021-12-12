@@ -102,7 +102,8 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 
 This ELK server is configured to monitor the following machines:
--List the IP addresses of the machines you are monitoring: 
+
+- List the IP addresses of the machines you are monitoring: 
 
 - Web-1 10.0.0.5
 - Web-2 10.0.0.6
