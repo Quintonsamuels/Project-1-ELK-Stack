@@ -99,7 +99,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-https://github.com/shahars1/Week-13-Project-1-ELK-Stack-/blob/main/Ansible/docker%20ps.png
+![](Ansible/docker%20ps.png)
 
 ### Target Machines & Beats
 
@@ -131,7 +131,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 metricbeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
 
-![](Ansible/metricbeat-playbook.yml)
+[metricbeat-playbook](Ansible/metricbeat-playbook.yml)
 
 SSH into the control node and follow the steps below:
 
