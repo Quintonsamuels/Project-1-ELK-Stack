@@ -9,11 +9,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 : Enter the playbook file:
 
-- _[install-ELK](Ansible/install-elk.yml.png) 
+-[install-ELK](Ansible/install-elk.yml.png) 
 
-- _[hosts](Ansible/hosts.config)
+-[hosts](Ansible/hosts.config)
 
-- _[ansible](Ansible/ansible.cfg)
+-[ansible](Ansible/ansible.cfg)
 
 
 
@@ -88,7 +88,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 
--  _[install-ELK](Ansible/install-elk.yml.png) 
+- [install-ELK](Ansible/install-elk.yml.png) 
 
 -In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc:
 - - name: set maximum map count in sysctl/systemd
@@ -127,11 +127,11 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 -filebeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook filebeat-playbook.yml)
 
-![](Ansible/filebeat-playbook.yml.png)
+[filebeat-playbook.yml](Ansible/filebeat-playbook.yml)
 
 metricbeat-playbook.yml playbook nano file: Once the file created, we need to run the command line (ansible-playbook metricbeat-playbook.yml)
 
-[metricbeat-playbook.yml](Ansible/metricbeat-playbook.yml)
+[metricbeat-playbook](Ansible/metricbeat-playbook.yml)
 
 SSH into the control node and follow the steps below:
 
