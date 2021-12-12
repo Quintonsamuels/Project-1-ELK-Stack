@@ -9,11 +9,11 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 : Enter the playbook file:
 
--[install-ELK](Ansible/Install-elk.yml) 
+-[Install-ELK](Ansible/Install-elk.yml) 
 
--[hosts](Ansible/hosts.config)
+-[Hosts](Ansible/hosts.config)
 
--[ansible](Ansible/ansible.cfg)
+-[Ansible](Ansible/ansible.cfg)
 
 
 
@@ -88,7 +88,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 
-- [install-ELK](Ansible/install-elk.yml.png) 
+-[Install-ELK](Ansible/Install-elk.yml) 
 
 -In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc:
 - - name: set maximum map count in sysctl/systemd
