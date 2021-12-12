@@ -137,8 +137,7 @@ SSH into the control node and follow the steps below:
 
 -Copy the filebeat-config.yml file to /etc/ansible/files.
 -Update the /etc/ansible /hosts file to include the ip address of the webserversand the elk-stack.
--Run the playbook, and navigate to:
-http://[personal vm IP]:5601/app/kibana to check installation.
+-Run the playbook, and navigate to: http://[personal vm IP]:5601/app/kibana to check installation.
 
 
 
