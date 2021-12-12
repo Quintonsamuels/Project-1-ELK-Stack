@@ -11,7 +11,7 @@ Enter the playbook file:
 
 - [Install-ELK](Ansible/Install-elk.yml) 
 
-- [Hosts](Ansible/hosts.config)
+- [Hosts](Ansible/hosts)
 
 - [Ansible](Ansible/ansible.cfg)
 
