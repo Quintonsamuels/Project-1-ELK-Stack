@@ -132,19 +132,19 @@ SSH into the control node and follow the steps below:
 - Update the /etc/ansible /hosts file to include the ip address of the webserversand the elk-stack.
 - Run the playbook, and navigate to: http://[personal vm IP]:5601/app/kibana to check installation.
 
-###Bonus
+### Bonus
 
 _As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc: 
 
--Open git bash, then ssh azadmin@jump box ip   <----------(My Azure jump-box)
--sudo docker container list -a                 <----------(my container name is:boring_raman)
--sudo docker start boring_raman                <----------(start my container)
--docker attach boring_raman                    <----------(attach my container)
--cd /etc/ansible/                              <----------(to work under ansible file)
--Create a playbook file                        <----------(use touch to create a nano playbook file)
--nano hosts                                    <----------(update ip on [webservers][elk][elkservers] Example:10.1.0.4 ansible_python_interpeter=/usr/bin/python3
--nano ansible.cfg                              <----------(add remote_user=azadmin to which server you want to use) 
--run ansible-playbook my-playbook.yml          <----------(ansible-playbook is the command to run the file)
+- Open git bash, then ssh azadmin@jump box ip   <----------(My Azure jump-box)
+- sudo docker container list -a                 <----------(my container name is:boring_raman)
+- sudo docker start boring_raman                <----------(start my container)
+- docker attach boring_raman                    <----------(attach my container)
+- cd /etc/ansible/                              <----------(to work under ansible file)
+- Create a playbook file                        <----------(use touch to create a nano playbook file)
+- nano hosts                                    <----------(update ip on [webservers][elk][elkservers] Example:10.1.0.4 ansible_python_interpeter=/usr/bin/python3
+- nano ansible.cfg                              <----------(add remote_user=azadmin to which server you want to use) 
+- run ansible-playbook my-playbook.yml          <----------(ansible-playbook is the command to run the file)
 
 
 
