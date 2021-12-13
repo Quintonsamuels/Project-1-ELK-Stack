@@ -134,7 +134,7 @@ SSH into the control node and follow the steps below:
 
 ### Bonus
 
-_As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc: 
+As a Bonus, provide the specific commands the user will need to run to download the playbook, update the files, etc: 
 
 - Open git bash, then ssh azadmin@jump box ip    <----------(My Azure jump-box)
 - sudo docker container list -a                  <----------(my container name is:boring_raman)
@@ -145,6 +145,7 @@ _As a Bonus, provide the specific commands the user will need to run to download
 - nano hosts                                     <----------(update ip on [webservers][elk][elkservers] Example:10.1.0.4 ansible_python_interpeter=/usr/bin/python3
 - nano ansible.cfg                               <----------(add remote_user=azadmin to which server you want to use) 
 - run ansible-playbook my-playbook.yml           <----------(ansible-playbook is the command to run the file)
+
 
 - nano hosts
 
