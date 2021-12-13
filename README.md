@@ -147,4 +147,4 @@ _As a Bonus, provide the specific commands the user will need to run to download
 - run ansible-playbook my-playbook.yml           <----------(ansible-playbook is the command to run the file)
 
 ![](Images/hosts.png)
-![](Diagram/diagram.png%20%2313.png)
+![](Images/ansible_user.png)
