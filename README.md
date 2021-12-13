@@ -146,5 +146,5 @@ _As a Bonus, provide the specific commands the user will need to run to download
 - nano ansible.cfg                               <----------(add remote_user=azadmin to which server you want to use) 
 - run ansible-playbook my-playbook.yml           <----------(ansible-playbook is the command to run the file)
 
-![](main/Images/hosts.png)
+![](Images/hosts.png)
 ![](Diagram/diagram.png%20%2313.png)
