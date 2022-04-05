@@ -27,25 +27,15 @@ This document contains the following details:
 
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the Damn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available , in addition to restricting access to the network.
 
-- What aspect of security do load balancers protect? - The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
-  
-- What is the advantage of a jump box? - Acts as an audit for traffic and a single point where we can manage user accounts.
-
-
+The load balancer protects against DDoS (Denial of service) attacks, SSL offload, authenticate user ID, protects applications from threats, traffic compression, and traffic cashing.
+ 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
 
-- What does Filebeat watch for? - Filebeat monitors for log files, collects log events, and forwards that information to Elasticsearch, or Longstash for indexing.
-
-- What does Metricbeat record? -  Metricbeat records metrics and statistics, and sends the output to programs such as Elasticsearch or Logstash. 
-
- 
-
-The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+ The configuration details of each machine may be found below.
 
 | Name     | Function         | IP Address | Operating System |
 |----------|----------------- |------------|------------------|
